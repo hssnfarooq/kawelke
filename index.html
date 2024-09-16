@@ -173,31 +173,65 @@
       </section>
 
       <section class="section__partner">
-        <div class="container">
-          <div class="section__partner__contianer">
-            <h2 class="heading__secondary text__center">Unsere Partner</h2>
+        <div class="section__partner__contianer">
+          <h2 class="heading__secondary text__center">Unsere Partner</h2>
+          <div class="partner__container">
+            <button class="btn__left__swiper">
+              <img src="./imgs/icon-left.svg" alt="icon" class="btn--left" />
+            </button>
 
-            <div class="partners__logo-wrapper">
-              <div class="partners__logo-box">
-                <!-- Partners will be dynamically added by JavaScript -->
-              </div>
-              <div class="partner__arrow-box">
-                <div class="arrow__left__box">
+            <!-- Swiper container for logos -->
+            <div class="swiper-container partner__logo__container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
                   <img
-                    src="./imgs/icon-left.svg"
-                    alt="arrow left"
-                    class="arrow__left"
+                    src="./imgs/partner-1.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--1"
                   />
                 </div>
-                <div class="arrow__right__box">
+                <div class="swiper-slide swiper-slide--2">
                   <img
-                    src="./imgs/icon-right.svg"
-                    alt="arrow right"
-                    class="arrow__right"
+                    src="./imgs/partner-2.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./imgs/partner-3.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--3"
+                  />
+                </div>
+                <!-- Add more logos as needed -->
+                <div class="swiper-slide">
+                  <img
+                    src="./imgs/partner-1.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--1"
+                  />
+                </div>
+                <div class="swiper-slide swiper-slide--2">
+                  <img
+                    src="./imgs/partner-2.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./imgs/partner-3.svg"
+                    alt="logo"
+                    class="partner__logo partner__logo--3"
                   />
                 </div>
               </div>
             </div>
+
+            <button class="btn__right__swiper">
+              <img src="./imgs/icon-right.svg" alt="icon" class="btn--right" />
+            </button>
           </div>
         </div>
       </section>
@@ -359,7 +393,7 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
