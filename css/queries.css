@@ -1,0 +1,237 @@
+/* *************************************** */
+/* 1280px */
+/* *************************************** */
+@media only screen and (max-width: 80em) {
+  .section__partner__contianer {
+    left: 10%;
+    right: 10%;
+
+    transform: translate(0%, -55%);
+  }
+}
+
+/* *************************************** */
+/* 1050px */
+/* *************************************** */
+@media only screen and (max-width: 65.65em) {
+  .header {
+    display: none;
+  }
+
+  .mobile__nav-btn {
+    display: block;
+  }
+
+  .nav-btn {
+    display: block;
+  }
+
+  .main__header__container {
+    padding-right: 0;
+  }
+
+  .section__partner .heading__secondary {
+    margin-bottom: 4rem;
+  }
+
+  .section__partner__contianer {
+    padding: 2.5rem 6rem 10rem;
+  }
+
+  .partner {
+    margin-right: 4rem;
+    min-width: 20rem;
+  }
+
+  .section__2 {
+    padding: 30rem 0 17rem;
+  }
+  .section__3 {
+    padding: 20rem 0 18rem;
+  }
+}
+
+/* *************************************** */
+/* 1050px */
+/* *************************************** */
+@media only screen and (min-width: 65.65em) {
+  .nav__checkbox:checked ~ .mobile__nav {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+}
+
+/* *************************************** */
+/* 830px */
+/* *************************************** */
+@media only screen and (max-width: 51.9em) {
+  .section__heading__box {
+    margin-right: 8rem;
+  }
+
+  .section__2__text__box {
+    padding: 1px 3rem 0.5px 0rem;
+  }
+
+  .section__partner .heading__secondary {
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
+  }
+  .section__partner__contianer {
+    padding: 2.5rem 5rem 8rem;
+  }
+}
+/* *************************************** */
+/* 790px */
+/* *************************************** */
+@media only screen and (max-width: 49.4em) {
+  .header__contact__box {
+    display: none;
+  }
+  .main__header {
+    padding: 2.5rem 0;
+  }
+
+  .container-inner {
+    width: 90%;
+  }
+  .section__1__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8rem;
+  }
+
+  .section__heading__box {
+    margin-right: 0;
+    margin-left: 6rem;
+  }
+
+  .section__text__box {
+    padding: 1px 0 0.5px 6rem;
+  }
+
+  .section__2__container {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .section__2__heading__box {
+    order: 1;
+    padding-left: 7rem;
+  }
+
+  .section__2__text__box {
+    order: 2;
+    padding: 1px 0 0.5px 7rem;
+    border-left: 1px solid #d8d8d8;
+    border-right: none;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .footer__link__heading {
+    margin-bottom: 3rem;
+  }
+
+  .partner {
+    margin-right: 3rem;
+    min-width: 16rem;
+  }
+
+  /* .partner__logo__container {
+    gap: 4rem; 
+  }
+  .partner {
+     margin-right: 1rem; 
+  } */
+
+  .section__partner {
+    height: 35rem;
+  }
+
+  .section__img {
+    height: 35rem;
+  }
+
+  .section__1 {
+    padding: 10rem 0;
+  }
+  .section__2 {
+    padding: 23rem 0 10rem;
+  }
+  .section__3 {
+    padding: 12rem 0 12rem;
+  }
+  .footer__copyright__text {
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+/* *************************************** */
+/* 552px */
+/* *************************************** */
+@media only screen and (max-width: 34.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    padding: 0 2.5rem;
+  }
+  .container-inner {
+    width: 100%;
+  }
+
+  .section__heading__box {
+    margin-left: 2rem;
+  }
+
+  .section__text__box {
+    padding: 1px 0 0.5px 2rem;
+  }
+
+  .section__2__heading__box {
+    padding-left: 2rem;
+  }
+
+  .section__2__text__box {
+    padding: 1px 0 0.5px 2rem;
+  }
+
+  .section__3__text__box {
+    padding: 1px 0rem 0.5px 2rem;
+  }
+  .partner {
+    margin-right: 2rem;
+    min-width: 12rem;
+  }
+
+  .partner__logo__container {
+    gap: 3rem;
+  }
+
+  .section__partner .heading__secondary {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .section__partner__contianer {
+    padding: 1rem 2rem 7rem;
+  }
+
+  .section__partner {
+    height: 32rem;
+  }
+
+  .section__img {
+    height: 33rem;
+  }
+  .arrow__left__box,
+  .arrow__right__box {
+    height: 8rem;
+    width: 3rem;
+  }
+}
