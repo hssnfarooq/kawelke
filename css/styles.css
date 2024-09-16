@@ -348,7 +348,7 @@ body {
 
 .section__hero {
   background-image: url(../imgs/hero-img.svg);
-  background-size: cover;
+  background-size: auto;
   background-position: center;
 }
 
